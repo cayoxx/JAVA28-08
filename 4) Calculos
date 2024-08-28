@@ -1,0 +1,11 @@
+package vinteoito08;
+
+public interface Calculos {
+
+	public void informar ();
+	public double somar ();
+	public double sub ();
+	public double multi ();
+	public double div ();
+
+}
