@@ -1,0 +1,23 @@
+package vinteoito08_interface;
+
+public class PrincipalVeiculos {
+
+	public static void main(String[] args) {
+
+	Carro McQueen = new Carro();		
+	Onibus Caio = new Onibus();
+	
+	System.out.println("Carro:");
+	McQueen.acelerar();
+	McQueen.frear();
+	McQueen.ligar();
+	McQueen.virar();
+	
+	System.out.println("Onibus:");
+	Caio.acelerar();
+	Caio.frear();
+	Caio.ligar();
+	Caio.virar();	
+	}
+
+}
