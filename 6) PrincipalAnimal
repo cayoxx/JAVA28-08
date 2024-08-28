@@ -1,0 +1,42 @@
+package vinteoito08v2;
+
+public class PrincipalAnimal {
+	
+	public static void main(String[] args) {
+
+	Lobo Malefico = new Lobo();	
+	Leao Fernandinho = new Leao();
+	Tigre Alfredo = new Tigre();
+	Cachorro Tobi = new Cachorro();
+	Gato Cesinha = new Gato();
+	
+	System.out.println("LOBO");
+	Malefico.dormir();
+	Malefico.caminhar();
+	Malefico.correr();
+	Malefico.emitirSom();
+	
+	System.out.println("LEÃO");
+	Fernandinho.dormir();
+	Fernandinho.caminhar();
+	Fernandinho.correr();
+	Fernandinho.emitirSom();
+	System.out.println("TIGRE");
+	Alfredo.dormir();
+	Alfredo.caminhar();
+	Alfredo.correr();
+	Alfredo.emitirSom();
+	System.out.println("CACHORRO");
+	Tobi.dormir();
+	Tobi.caminhar();
+	Tobi.correr();
+	Tobi.emitirSom();
+	System.out.println("GATO");
+	Cesinha.dormir();
+	Cesinha.caminhar();
+	Cesinha.correr();
+	Cesinha.emitirSom();
+
+		
+	}
+}
