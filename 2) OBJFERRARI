@@ -1,0 +1,19 @@
+package vinteoito08;
+
+public class objFerrari {
+
+	public static void main(String[] args) {
+	
+		Ferrari Ferrarizinha = new Ferrari();
+		
+		Ferrarizinha.ligar();
+		Ferrarizinha.desligar();
+		Ferrarizinha.manobrar();
+		Ferrarizinha.engatar();
+		Ferrarizinha.acelerar();
+		Ferrarizinha.frear();
+
+
+	}
+
+}
