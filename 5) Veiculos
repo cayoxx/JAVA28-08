@@ -1,0 +1,16 @@
+package vinteoito08_interface;
+
+public abstract class Veiculos {
+
+	String Placa;
+	String Modelo;
+	String Cor;
+	int ano;
+	
+	public abstract void acelerar();
+	public abstract void frear();
+	public abstract void virar();
+	public abstract void ligar();
+
+
+}
