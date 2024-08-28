@@ -1,0 +1,17 @@
+package vinteoito08;
+
+public class ObjCalculando {
+
+	public static void main(String[] args) {
+		
+		Calculando calculadora = new Calculando();
+		
+		calculadora.informar();
+		calculadora.somar();
+		calculadora.sub();
+		calculadora.multi();
+		calculadora.div();
+
+	}
+
+}
