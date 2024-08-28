@@ -1,0 +1,17 @@
+package vinteoito08;
+
+public class objLobo {
+	
+	public static void main(String[] args) {
+		
+	Lobo Auau = new Lobo();
+	
+	Auau.caminhar();
+	Auau.dormir();
+	Auau.correr();
+	Auau.emitirSom();		
+		
+		
+	}
+
+}
