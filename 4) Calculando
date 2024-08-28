@@ -1,0 +1,52 @@
+package vinteoito08;
+
+import java.util.Scanner;
+
+public class Calculando implements Calculos {
+double a=0,b=0,soma, subtracao, multiplicacao,divisao,expo;
+Scanner ler = new Scanner(System.in);
+
+
+
+	@Override
+	
+	public void informar () {
+
+	    
+	    System.out.println("Informe o primeiro valor: ");
+	    a = ler.nextDouble();
+	    System.out.println("Informe o segundo valor: ");
+	    b = ler.nextDouble();
+	}
+	public double somar () {
+
+		soma = a+b;
+		System.out.println("Soma: " + soma);
+		return soma;
+
+	}
+    public double sub () {
+
+		subtracao = a-b;
+		System.out.println("Subtração: " + subtracao);
+		return subtracao;
+
+	}
+    public double multi () {
+
+	multiplicacao = a*b;
+	System.out.println("Multiplicação: " + multiplicacao);
+	return multiplicacao;
+
+}
+    public double div () {	
+
+	divisao = a/b;
+	System.out.println("Divisão: " + divisao);
+	return divisao;
+
+	
+}
+}
+
+
