@@ -1,0 +1,22 @@
+package vinteoito08;
+
+public class objPC {
+
+	public static void main(String[] args) {
+	
+	PC Gamer = new PC();
+	PC House = new PC();
+
+	Gamer.ligar();
+	Gamer.desligar();
+	Gamer.reiniciar();
+	Gamer.carregandoSistema();
+	
+	House.ligar();
+	House.desligar();
+	House.reiniciar();
+	House.carregandoSistema();
+	
+	}
+
+}
